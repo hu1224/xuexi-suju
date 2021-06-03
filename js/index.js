@@ -28,7 +28,7 @@ $(function(){
         $('#welcome').html('欢迎 '+nuer.username) 
        );
        if (nuer.user_pic !== null){
-           $(".layui-nav-img").prop('str',nuer.user_pic).show();
+           $(".layui-nav-img").prop('src',nuer.user_pic).show();
            $('.text-avatar').hide()
        }else{
             $(".layui-nav-img").hide();
